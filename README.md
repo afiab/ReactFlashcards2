@@ -2,7 +2,7 @@
 
 Submitted by: **Afia Bidica**
 
-This web app: **insert description**
+This web app: **a tool to help students practice French**
 
 Time spent: **2** hours spent in total
 
@@ -11,7 +11,7 @@ Time spent: **2** hours spent in total
 The following **required** functionality is completed:
 
 - [ ] **The user can enter their guess in a box before seeing the flipside of the card**
-- [X] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [ ] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
 - [X] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
 - [X] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
 
@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='flashcards2\src\assets\demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
