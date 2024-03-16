@@ -8,10 +8,13 @@ import French from './component/french.json'
 
 function App() {
   const [index, setIndex] = useState(0);
-  const [card, setCard] = useState(French[0]);
+  // const [card, setCard] = useState(French[0]);
 
   function nextCard() {
-    setIndex(nextIndex => Math.floor(Math.random()*French.length))
+    setIndex(nextIndex => nextIndex+1)
+  }
+  function prevCard() {
+    setIndex(nextIndex => nextIndex-1)
   }
 
   return (
@@ -24,7 +27,9 @@ function App() {
       <Flashcard 
         {...French[index]}
       />
+      <Button onClick={prevCard} disabled = {index === 0 ? true:false}>&larr;</Button>
       <Button onClick={nextCard} disabled = {index === French.length - 1 ? true:false}>&rarr;</Button>
+      <Button>Shuffle Cards</Button>
     </div>    
   )
 }
