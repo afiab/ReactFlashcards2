@@ -1,0 +1,33 @@
+[
+    {
+        "question": "Bonjour",
+        "answer": "Hello",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Au revoir",
+        "answer": "Goodbye",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Je m'appelle Chris",
+        "answer": "My name is Chris",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Il aime manger des fruits",
+        "answer": "He likes to eat fruit",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Je veux aller au Paris",
+        "answer": "I want to go to Paris",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Je vais dormir quand je finis mes devoirs",
+        "answer": "I will go to sleep when I finish my work",
+        "difficulty": "hard"
+    }
+
+]
